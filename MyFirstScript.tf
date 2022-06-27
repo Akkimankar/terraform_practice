@@ -8,3 +8,10 @@ resource "aws_instance" "web-server" {
   security_groups = ["default"]
   key_name = "terraform"
 }
+
+resource "aws_instance" "web-server" {
+  ami = "ami-0cff7528ff583bf9a"
+  instance_type = "t4.micro"
+  security_groups = ["default"]
+  key_name = "terraform"
+}
