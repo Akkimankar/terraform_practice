@@ -9,9 +9,9 @@ resource "aws_instance" "web-server" {
   key_name = "terraform"
 }
 
-resource "aws_instance" "web-server" {
+resource "aws_instance" "app-server" {
   ami = "ami-0cff7528ff583bf9a"
-  instance_type = "t4.micro"
+  instance_type = "t2.micro"
   security_groups = ["default"]
   key_name = "terraform"
 }
