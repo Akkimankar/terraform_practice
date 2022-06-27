@@ -1,2 +1,2 @@
 provider "aws" {
-    region
+    region = ""
