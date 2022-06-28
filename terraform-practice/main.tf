@@ -29,7 +29,7 @@ resource "aws_internet_gateway" "igw"  {
 }
 
 resource "aws_internet_gateway_attachment" "igw-attach" {
-  
+  vpc_id = 
 }
 
 
