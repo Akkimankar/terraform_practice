@@ -9,7 +9,7 @@ variable "instance_type" {
 }
 
 variable "vpc_id" {
-    default = "vpc-00a9701be112fe95c" 
+    default = "vpc-0fc4b88bd30f7e9d4" 
 }
 
 variable "key_name" {
