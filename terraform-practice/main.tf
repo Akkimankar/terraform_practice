@@ -7,4 +7,6 @@ resource "aws_vpc" "vpc1" {
 
 resource "aws_subnet" "private_subnet" {
   vpc_id = aws_vpc.vpc1.id
+
+
 }
