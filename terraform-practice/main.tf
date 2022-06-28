@@ -1,1 +1,1 @@
-resource "aws_vpc" 
+resource "aws_vpc" "vpc1" {}
