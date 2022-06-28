@@ -13,5 +13,5 @@ variable "vpc_id" {
 }
 
 variable "key_name" {
-  default = "aws-nv-cbz"
+  default = "terraform"
 }
