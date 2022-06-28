@@ -5,6 +5,6 @@ resource "aws_vpc" "vpc1" {
   } 
 }
 
-resource "aws1" "name" {
+resource "aws_subnet" "private" {
   
 }
