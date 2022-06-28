@@ -19,6 +19,6 @@ resource "aws_subnet" "private_subnet" {
   cidr_block = "10.10.0.0/20"
   map_public_ip_on_launch = "true"
   tags ={
-    "Name" = "private_subnet"
+    "Name" = "public_subnet"
   }
 }
