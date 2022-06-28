@@ -1,7 +1,7 @@
 resource "aws_instance" "web-server" {
   ami = "
-  instance_type = "t3.micro"
-  security_groups = ["default"]
+  instance_type = var
+    security_groups = ["default"]
   key_name = "terraform"
 }
 
