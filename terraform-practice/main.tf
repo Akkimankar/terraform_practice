@@ -24,7 +24,7 @@ resource "aws_subnet" "private_subnet" {
   }
 }
 
-resource "aws" "internet_gateway"  {
+resource "aws_internet_gateway" "igw"  {
 
 
 
