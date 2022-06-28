@@ -12,4 +12,4 @@ resource "aws_instance" "app-server" {
   key_name = "terraform"
 }
 
-variable ""aws_
+variable "instance"
