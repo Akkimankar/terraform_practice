@@ -33,7 +33,7 @@ resource "aws_internet_gateway_attachment" "igw-attach" {
   internet_gateway_id = aws_internet_gateway.igw.id
 }
 
-resource "aws_defa" "name" {
+resource "aws_default_route_table" " {
   
 }
 
