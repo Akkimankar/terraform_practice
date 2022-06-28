@@ -9,5 +9,6 @@ default = " t2.micro"
 } 
 
 variable "vpc_id" {
-  
+    default = 
+
 }
