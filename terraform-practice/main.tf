@@ -1,1 +1,2 @@
-resource "aws_vpc" "vpc1" {}
+resource "aws_vpc" "vpc1" {
+  cidr  
