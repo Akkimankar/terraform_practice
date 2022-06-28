@@ -19,4 +19,4 @@ variable "ami_id" {
 }
 
 variable "instance_type"
-default = " AMI-ID" 
+default = " t2.micro" 
