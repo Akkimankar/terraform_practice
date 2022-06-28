@@ -18,4 +18,5 @@ variable "ami_id" {
     description = "AMI-ID"
 }
 
-variable "instance=" 
+variable "instance_type"
+defaul 
