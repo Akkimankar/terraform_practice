@@ -19,4 +19,4 @@ variable "ami_id" {
 }
 
 variable "instance_type"
-default = "" 
+default = " AMI-ID" 
