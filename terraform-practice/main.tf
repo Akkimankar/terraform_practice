@@ -1,2 +1,2 @@
 resource "aws_vpc" "vpc1" {
-  cidr  
+  cidr_block =  
