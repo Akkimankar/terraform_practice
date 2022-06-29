@@ -29,6 +29,7 @@ resource "aws_instance" "instance1" {
         "chmod 600 /home/ec2-user/.ssh/id_rsa",
         "echo -e 'Host * \n\t StrictHostKeyChecking no' > ~/.ssh/config",
         "chmod 600 ~/.ssh/config",
+        "cd ansible"
         "ansible-pull -U git@gitlab.com:shubham.kalsait/ansible-b16.git env-deployment.yml"
       ]
   }
