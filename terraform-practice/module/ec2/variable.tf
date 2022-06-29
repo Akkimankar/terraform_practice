@@ -11,7 +11,7 @@ variable "key_name" {
 }
 
 variable "private_subnet_id" {
-    default = 
+    default = ""
 }
 
 variable "sg_id" {
