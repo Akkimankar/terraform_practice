@@ -15,8 +15,7 @@ variable "private_subnet_id" {
     default = "subnet-03d5bbf866926f7ad"
 }
 
-variable "sg_id" {
-    type = list{string}
+variable "sg_id" {}
     default = "sg-0557d665bd55cff09"
 }
 
