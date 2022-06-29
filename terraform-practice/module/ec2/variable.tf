@@ -16,6 +16,7 @@ variable "private_subnet_id" {
 }
 
 variable "sg_id" {
+    
     default = "sg-0557d665bd55cff09"
 }
 
