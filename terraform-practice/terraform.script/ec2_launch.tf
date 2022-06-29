@@ -6,7 +6,7 @@ resource "aws_instance" "instance1" {
   user_data = <<EOF
     #!/bin/bash
     amazon-linux-extras install epel -y
-    YUM INSTALL
+    yum instal
   EOF
   
   connection {
