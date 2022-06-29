@@ -3,5 +3,5 @@ variable "cidr_vpc" {
 }
 
 variable "cidr_private" {
-  
+  default = "10.10.0.0/20"
 }
