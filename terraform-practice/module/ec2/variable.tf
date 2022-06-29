@@ -1,3 +1,6 @@
+data "" "name" {
+  
+}
 variable "ami" {
     default = "ami-0cff7528ff583bf9a"
 }
