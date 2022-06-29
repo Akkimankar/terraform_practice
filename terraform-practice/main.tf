@@ -34,7 +34,7 @@ resource "aws_internet_gateway_attachment" "igw-attach" {
 }
 
 resource "aws_default_route_table" "RT" {
-  default_route_table_id = aws_vpc.vpc1.
+  default_route_table_id = aws_vpc.vpc1.RT
   
 }
 
