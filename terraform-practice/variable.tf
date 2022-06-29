@@ -6,7 +6,7 @@ variable "cidr_private" {
   default = "10.10.0.0/20"
 }
 
-variable "zone" {
+variable "zone_private" {
   defdefault = "us-east-1a" 
 }
 
