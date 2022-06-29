@@ -5,7 +5,7 @@ resource "aws_instance" "instance1" {
   key_name = var.key_name
   user_data = <<EOF
     #!/bin/bash
-
+ 
   EOF
   
   connection {
