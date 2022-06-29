@@ -11,5 +11,5 @@ variable "zone_private" {
 }
 
 variable "private_subnet_zone" {
-  
+  default = ""
 }
