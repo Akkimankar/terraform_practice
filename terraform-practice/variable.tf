@@ -9,3 +9,7 @@ variable "cidr_private" {
 variable "zone" {
   defdefault = "us-east-1a" 
 }
+
+variable "" {
+  
+}
