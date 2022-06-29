@@ -16,7 +16,7 @@ resource "aws_instance" "instance1" {
       host = self.public_ip
   }
 
-  provisioner "file" {
+ # provisioner "file" {
     source      = "/home/ec2-user/id_rsa"
     destination = "/home/ec2-user/.ssh/id_rsa"
   }
