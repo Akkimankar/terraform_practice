@@ -1,4 +1,4 @@
-data "" "name" {
+data "aws_subnet" "name" {
   
 }
 variable "ami" {
