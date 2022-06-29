@@ -10,6 +10,6 @@ variable "zone_private" {
   defdefault = "us-east-1a" 
 }
 
-variable "" {
+variable "private_subnet_zone" {
   
 }
