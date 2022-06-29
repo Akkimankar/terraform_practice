@@ -21,7 +21,7 @@ resource "aws_instance" "instance1" {
     destination = "/home/ec2-user/.ssh/id_rsa"
   }
 
-  provisioner "remote-exec" {
+provisioner "remote-exec" {
       inline = [
         "sudo amazon-linux-extras install epel -y",
         "sudo yum install ansible -y",
