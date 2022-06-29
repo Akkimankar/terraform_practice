@@ -1,4 +1,7 @@
-
+data "aws_subnet" "public_subnet" {
+  vpc_id = "vpc-04ac75991bf7e4bfd"
+  availability_zone = "us-east-1b"
+}
 resource "aws_instance" "instance1" {
   ami = var.ami
   instance_type = var.instance_type
