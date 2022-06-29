@@ -1,5 +1,5 @@
 resource "aws_vpc" "vpc1" {
-  cidr_block = 
+  cidr_block = var.
    tags = {
     "Name" = "my-vpc" 
   } 
