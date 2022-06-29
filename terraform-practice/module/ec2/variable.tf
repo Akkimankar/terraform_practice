@@ -3,7 +3,7 @@ variable "ami" {
 }
 
 variable "instance_type" {
-    default =  
+    default = ""  
 }
 
 variable "key_name" {
