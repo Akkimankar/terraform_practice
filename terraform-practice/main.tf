@@ -32,7 +32,7 @@ resource "aws_internet_gateway_attachment" "igw-attach" {
   internet_gateway_id = aws_internet_gateway.igw.id
 }
 
-resource "aws_default_route_table" "RT" {
+resource "aws_default_route_table" "default_ro" {
   default_route_table_id = aws_vpc.vpc1.RT
   route {
      cidr_block = "0.0.0.0/0"
