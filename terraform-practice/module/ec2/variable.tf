@@ -1,5 +1,5 @@
 data "aws_subnet" "public_subnet" {
-  vpc_id = ""
+  vpc_id = "vpc-04ac75991bf7e4bfd"
 }
 variable "ami" {
     default = "ami-0cff7528ff583bf9a"
