@@ -1,3 +1,3 @@
 variable "cidr_vpc" {
-  default
+  default =
 }
