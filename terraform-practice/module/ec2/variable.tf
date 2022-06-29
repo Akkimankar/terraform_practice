@@ -18,5 +18,5 @@ variable "sg_id" {
 }
 
 variable "public_subnet_id" {
-    default = ""
+    default = "subnet-0877da6bd9b5a220d"
 }
