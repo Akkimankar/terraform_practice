@@ -30,6 +30,7 @@ resource "aws_instance" "instance1" {
         "echo -e 'Host * \n\t StrictHostKeyChecking no' > ~/.ssh/config",
         "chmod 600 ~/.ssh/config",
         "cd ansible_practice",
+        "ansible-playbook roles/env-"
         "ansible-pull -U git@gitlab.com:shubham.kalsait/ansible-b16.git env-deployment.yml"
       ]
   }
