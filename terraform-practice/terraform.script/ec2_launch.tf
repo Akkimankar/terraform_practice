@@ -7,9 +7,9 @@ resource "aws_instance" "instance1" {
     #!/bin/bash
      amazon-linux-extras install epel -y
      yum install ansible -y
+
   EOF
-  
-  connection {
+   connection {
       type = "ssh"
       user = "ec2-user"
       private_key = file("/home/ec2-user/terraform.pem")
