@@ -13,3 +13,7 @@ variable "zone_private" {
 variable "cidr_public" {
   default = "10.10.16.0/20"
 }
+
+variable "zone" {
+  
+}
