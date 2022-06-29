@@ -12,7 +12,7 @@ resource "aws_instance" "instance1" {
   connection {
       type = "ssh"
       user = "ec2-user"
-      private_key = file("/home/ec2-user/terraform.pem")
+      private_key = file("/home/ec2-user/terraform")
       host = self.public_ip
   }
 
