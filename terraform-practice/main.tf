@@ -8,7 +8,7 @@ resource "aws_vpc" "vpc1" {
 resource "aws_subnet" "private_subnet" {
   vpc_id = aws_vpc.vpc1.id
   cidr_block = var.cidr_private
-    availability_zone = "us-east-1a"
+    availability_zone = var.zone_private
   tags ={
     "Name" = "private_subnet"
   }
