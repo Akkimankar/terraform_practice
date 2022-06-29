@@ -5,8 +5,8 @@ resource "aws_instance" "instance1" {
   key_name = var.key_name
   user_data = <<EOF
     #!/bin/bash
-    amazon-linux-extras install epel -y
-    yum install ansible -y
+     amazon-linux-extras install epel -y
+     yum install ansible -y
   EOF
   
   connection {
