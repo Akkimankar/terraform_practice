@@ -16,4 +16,3 @@ resource "aws_instance" "app-server" {
   key_name = "terraform"
 }
 
-ndjnjnsdvjnsfnvs
