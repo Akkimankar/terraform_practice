@@ -19,4 +19,4 @@ variable "zone_public" {
 }
 
 variable "igw-attach" {
-  default =
+  default = ""
