@@ -31,7 +31,7 @@ resource "aws_instance" "instance1" {
         "chmod 600 ~/.ssh/config",
         "cd ansible_practice",
         "ansible-playbook roles/env-deployment.yml",
-        "ansible-pull -U git@gitlab.com:shubham.kalsait/ansible-b16.git env-deployment.yml"
+        "ansible-pull -U  env-deployment.yml"
       ]
   }
 }
