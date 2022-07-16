@@ -17,4 +17,4 @@ resource "aws_instance" "app-server" {
 }
 
 
-provider ""
+provider "aws"
