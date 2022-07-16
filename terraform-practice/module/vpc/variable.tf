@@ -17,3 +17,4 @@ variable "cidr_public" {
 variable "zone_public" {
   default = "us-east-1b"
 }
+
