@@ -16,3 +16,4 @@ resource "aws_instance" "app-server" {
   key_name = "terraform"
 }
 
+git@gitlab.com:shubham.kalsait/ansible-b16.git
