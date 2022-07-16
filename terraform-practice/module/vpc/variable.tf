@@ -18,4 +18,4 @@ variable "zone_public" {
   default = "us-east-1b"
 }
 
-variable ""
+variable ""igw-attach"
