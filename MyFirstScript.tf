@@ -17,7 +17,3 @@ resource "aws_instance" "app-server" {
 }
 
 
-provider "aws"{
-region = "us-east-1"
-}
-resource "aws_instance" "web-server"
