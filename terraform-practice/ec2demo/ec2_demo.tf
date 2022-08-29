@@ -32,3 +32,11 @@ variable "security_groups" {
 variable "key_name" {
   default = "terraform"
 }
+
+
+variable ""
+
+
+
+
+
