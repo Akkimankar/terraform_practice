@@ -49,7 +49,7 @@ resource "aws_default_route_table" "default_rt" {
 resource "aws_vpc" "main" {
   cidr_block = "10.0.0.0/16"
   tags = {
-    name
+    Name = 
 }
 
 
