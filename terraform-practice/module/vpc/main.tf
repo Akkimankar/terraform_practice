@@ -58,7 +58,7 @@ resource "aws_subnet" "main" {
 }
 
 resource "aws_internet_gateway" "gw" {
-  vpc_id = aws_vpc.internet_gateway_id.
+  vpc_id = aws_vpc.vpc1.
 }
 
 
