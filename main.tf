@@ -25,7 +25,7 @@ resource "aws_security_group" "sg1" {
   vpc_id      = aws_vpc.main.id
 
   ingress {
-    description      = "TLS from VPC"
+    description      = "VPC_sg1"
     from_port        = 443
     to_port          = 443
     protocol         = "tcp"
