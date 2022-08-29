@@ -39,10 +39,12 @@ variable "ami" {
 }
 
 variable "instance_type" {
-  default = "t"
+  default = "t3.medium"
 }
 
-
+variable "key_name" {
+  
+}
 
 
 
