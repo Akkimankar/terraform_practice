@@ -2,7 +2,7 @@ resource "aws_instance" "web-server" {
   ami = "var.ami_id"  
   instance_type = "var.instance_type"
   security_groups = ["default"]
-  key_name = "devops-key"
+  key_name = "aws"
  }
 
  resource "aws_instance" "app-server" {
