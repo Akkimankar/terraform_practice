@@ -1,6 +1,6 @@
 resource "aws_instance" "web-server" {
   ami = "var.ami_id"  
-  instance_type = ""
+  instance_type = "var.instance"
   security_groups = ["default"]
   key_name = "devops-key"
  }
