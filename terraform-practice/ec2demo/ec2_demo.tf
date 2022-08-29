@@ -34,7 +34,8 @@ variable "key_name" {
 }
 
 
-variable ""
+variable "ami" {
+  default = ""
 
 
 
