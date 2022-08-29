@@ -46,8 +46,8 @@ variable "key_name" {
   default = "devops_key"
 }
 
-variable "security" {
-  
+variable "security_group" {
+  defa
 }
 
 
