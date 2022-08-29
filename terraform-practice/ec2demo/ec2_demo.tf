@@ -4,3 +4,4 @@ resource "aws_instance" "web-server" {
   security_groups = ["default"]
   key_name = "devops-key"
  }
+ 
