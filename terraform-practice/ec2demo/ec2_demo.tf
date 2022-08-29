@@ -38,8 +38,8 @@ variable "ami" {
   default = "ami-54145445655"
 }
 
-variable "in" {
-  
+variable "instance_type" {
+  default = "t"
 }
 
 
