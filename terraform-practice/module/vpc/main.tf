@@ -42,37 +42,3 @@ resource "aws_default_route_table" "default_rt" {
 
 
 
-
-
-
-
-resource "aws_vpc" "main" {
-  cidr_block = "10.0.0.0/16"
-  tags = {
-    "Name" = "vpc"
-}
-
-resource "aws_subnet" "main" {
-  vpc_id     = aws_vpc.main.id
-  cidr_block = "var.cidr_block"
-}
-
-resource "aws_internet_gateway" "gw" {
-  vpc_id = aws_vpc.vpc1.id
-  internet_gateway_id = aws_internet_gateway
-}
-
-resource "aws_route_table" "example" {
-  vpc_id = aws_vpc.example.id
-
-  route {
-    cidr_block = "0.0.0.0/0"
-    gateway_id = aws_internet_gateway.example.id
-  }
-
-
-
-
-
-
-
