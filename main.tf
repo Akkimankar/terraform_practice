@@ -26,8 +26,8 @@ resource "aws_security_group" "sg1" {
 
   ingress {
     description      = "VPC_sg1"
-    from_port        = 443
-    to_port          = 443
+    from_port        = 0
+    to_port          = 0
     protocol         = "tcp"
     cidr_blocks      = [aws_vpc.main.cidr_block]
     ipv6_cidr_blocks = [aws_vpc.main.ipv6_cidr_block]
