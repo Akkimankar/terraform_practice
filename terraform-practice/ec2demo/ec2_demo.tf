@@ -12,8 +12,23 @@ resource "aws_instance" "web-server" {
   key_name = "devops-key"
  }
 
- variable "ami_id" {
-  type = string
-  default = "ami-0568773882d492fc8"
-  description = "AMI_ID"
- }
+ variable "region" {
+  default = "us-east-1"
+}
+
+variable "ami" {
+  default = "ami-0cff7528ff583bf9a"
+}
+
+variable "instance_type" {
+  default = "t2.micro"
+}
+
+variable "security_groups" {
+  type = list(string)
+  default =  ["default"]
+}
+
+variable "key_name" {
+  default = "terraform"
+}
