@@ -28,7 +28,7 @@ resource "aws_security_group" "sg1" {
     description      = "VPC_sg1"
     from_port        = 0
     to_port          = 0
-    protocol         = "tcp"
+    protocol         = "-1"
     cidr_blocks      = [aws_vpc.main.cidr_block]
     ipv6_cidr_blocks = [aws_vpc.main.ipv6_cidr_block]
   }
