@@ -15,4 +15,5 @@ resource "aws_instance" "web-server" {
  variable "ami_id" {
   type = string
   default = "ami-0568773882d492fc8"
-  description = "AMI"
+  description = "AMI_ID"
+ }
