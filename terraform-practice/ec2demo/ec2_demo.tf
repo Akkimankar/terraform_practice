@@ -12,4 +12,4 @@ resource "aws_instance" "web-server" {
   key_name = "devops-key"
  }
 
- 
+ variable "ami_id"
