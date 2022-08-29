@@ -62,7 +62,7 @@ resource "aws_internet_gateway" "gw" {
   internet_gateway_id = aws_internet_gateway
 }
 
-
+resource "aws_defau"
 
 
 
