@@ -47,7 +47,7 @@ variable "key_name" {
 }
 
 variable "security_group" {
-  default = "{}"
+  default = "[default]"
 }
 
 
