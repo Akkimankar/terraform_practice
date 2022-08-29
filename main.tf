@@ -20,7 +20,7 @@ resource "aws_security_group" "sg1" {
 }
 
 resource "aws_security_group" "sg1" {
-  name        = "allow_tls"
+  name        = "my_sg1"
   description = "Allow TLS inbound traffic"
   vpc_id      = aws_vpc.main.id
 
